@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.31.1" />
+
+  <title>Wiki Editing &middot; Polydigital Projects</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  
+
+  
+
+  <link rel="shortcut icon" href="https://polydigital.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/our-values/"><i class='fa fa-heart fa-fw'></i>Values</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small></small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Wiki Editing</h1>
+  <h2></h2>
+</div>
+<div class="content">
+  
+
+<p>This document describes how to edit the project wiki (this site), it is intended for those who contribute to Polydigital projects and want to post public information about their work.</p>
+
+<h2 id="summary">Summary</h2>
+
+<ul>
+<li>We publish this site to <a href="https://pages.github.com/">Github Pages</a>, essentially we are using github to host our static site.<br /></li>
+<li>We generate the site using <a href="https://gohugo.io/">Hugo</a> that builds Markdown into our static site.</li>
+<li>We use Github to maintain versions of both our <a href="https://github.com/polydigital/polydigital.githubpages">markdown source</a> and for the <a href="https://github.com/polydigital/polydigital.github.io">public generated site.</a></li>
+<li>This guide describes how to create/edit new content, build the site locally and publish it to the web.  For more info on that read the <a href="https://gohugo.io/documentation/">Hugo docs.</a></li>
+</ul>
+
+<h2 id="set-up-local-machine">Set Up Local Machine</h2>
+
+<ul>
+<li><a href="https://gohugo.io/getting-started/installing/">Install Hugo</a> which is used for site generation</li>
+<li>Clone the git repo that has all the source content in it:</li>
+</ul>
+
+<pre><code>$ git clone https://github.com/polydigital/polydigital.githubpages.git
+</code></pre>
+
+<ul>
+<li>Change into the working (cloned) directory</li>
+<li>Create a new content item:</li>
+</ul>
+
+<pre><code>$ hugo new team/about-tom-broughton.md
+</code></pre>
+
+<ul>
+<li>This will create a new markdown file in the content directory</li>
+<li>The path/filename will be represented like this in the public site once built</li>
+<li>Edit the newly created file and save</li>
+<li>In the root of the cloned dir run a hugo server locally with the build drafts flag</li>
+</ul>
+
+<pre><code>$ hugo server --buildDrafts
+</code></pre>
+
+<ul>
+<li>Browse to the URL for the server specified in the terminal</li>
+<li>Add on the path and name of file (without the .md file extension) to preview content</li>
+<li>Any saved updates to content will immediately be reflected in the browser</li>
+<li>when happy with changes/edit commit changes to git and push to repo</li>
+</ul>
+
+<pre><code>$ git add team/about-tom-broughton.md
+$ git commit -m &quot;created content page: about tom broughton&quot;
+$ git push origin master
+</code></pre>
+
+<h2 id="publishing">Publishing</h2>
+
+<ul>
+<li>To generate static site with new content first remove the draft:true flag at the top of the markdown and commit and push the change to the source repo</li>
+<li>Change directory to public and add all changes to git, commit and push to origin master</li>
+</ul>
+
+<pre><code>$ cd public
+$ git add --all
+$ git commit -m &quot;publishing new page: about tom broughton&quot;
+$ git push origin master
+$ cd ..
+</code></pre>
+
+</div>
+
+</div>
+</div>
+<script src="https://polydigital.github.io/js/ui.js"></script>
+
+
+
+
+
+
+</body>
+</html>
+

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Polydigital Projects</title>
-    <link>https://polydigital.github.io/</link>
-    <description>Recent content on Polydigital Projects</description>
+    <title>Teams on Polydigital Projects</title>
+    <link>https://polydigital.github.io/team/</link>
+    <description>Recent content in Teams on Polydigital Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 19 Dec 2017 11:13:10 +0000</lastBuildDate>
     
-	<atom:link href="https://polydigital.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://polydigital.github.io/team/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>This document describes how to edit the project wiki (this site), it is intended for those who contribute to Polydigital projects and want to post public information about their work.
 Summary  We publish this site to Github Pages, essentially we are using github to host our static site.
  We generate the site using Hugo that builds Markdown into our static site. We use Github to maintain versions of both our markdown source and for the public generated site.</description>
-    </item>
-    
-    <item>
-      <title>Our Values</title>
-      <link>https://polydigital.github.io/our-values/</link>
-      <pubDate>Mon, 18 Dec 2017 10:24:37 +0000</pubDate>
-      
-      <guid>https://polydigital.github.io/our-values/</guid>
-      <description>Social Good We address problems within our society, communities and environment. We deliver alternative solutions for a fairer, safer and sustainable future.
-Cooperation over Collaboration over Conflict Our view is that cooperation is better than the need to collaborate on everything and that collaboration is better than conflict. Our actions are often independent and are made with our shared values working towards shared goals. Acceptance of this in our decisions means our cooperation with each other.</description>
     </item>
     
   </channel>
