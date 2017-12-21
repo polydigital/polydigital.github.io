@@ -6,10 +6,20 @@
     <description>Recent content on Polydigital Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 19 Dec 2017 11:13:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Dec 2017 09:47:16 +0000</lastBuildDate>
     
 	<atom:link href="https://polydigital.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ways of Working</title>
+      <link>https://polydigital.github.io/team/ways-of-working/</link>
+      <pubDate>Thu, 21 Dec 2017 09:47:16 +0000</pubDate>
+      
+      <guid>https://polydigital.github.io/team/ways-of-working/</guid>
+      <description>We are using Trello here in whatever way comes to us:
+ We set goals which are time bound and work towards a mission (of some sort, eg. Hitch my Ride Discovery). We use it to plan work together, assign and schedule it and then to review what we’ve done. We make lists of things we might want to think about or need to address outside of actual tasks we are working on.</description>
+    </item>
     
     <item>
       <title>Wiki Editing</title>
